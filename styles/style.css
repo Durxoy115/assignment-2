@@ -268,9 +268,12 @@ footer{
 
 
 @media only screen and (max-width: 688px) {
-    .container {
+    .title {
         display: flex;
         justify-content: center;
+    }
+    .first-heading h2{
+        text-align: center;
     }
     .nav-bar {
         display: none;
@@ -307,7 +310,7 @@ footer{
     hr {
         display: none;
     }
-    .buttom {
+    .bottom {
         display: none;
     }
     .second-container {
@@ -347,11 +350,12 @@ Media Queries for Tablet Devices
 --------------------------------- */
 
 @media only screen and (min-width:689px) and (max-width:992px) {
-    .container {
+    .title {
         display: flex;
         justify-content: center;
     }
-    .nav-bar {
+    
+    .nav-bar  {
         display: none;
     }
     .second-container {
